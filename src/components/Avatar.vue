@@ -1,7 +1,7 @@
 <template>
-  <avatar>
+  <div>
     <img src="../assets/img/avatar.jpg" alt="">
-  </avatar>
+  </div>
 </template>
 
 <script>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style>
-avatar {
-  border: 1px solid black
+img {
+  width: 200px;
 }
 </style>
