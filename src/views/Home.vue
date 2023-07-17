@@ -1,6 +1,7 @@
 <template>
-  Главная страница
+  <img src="@/assets/img/avatar.jpeg" alt="">
 </template>
-<script>
 
+<script>
+  
 </script>

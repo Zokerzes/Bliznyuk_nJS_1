@@ -1,23 +1,24 @@
 <template>
-  <footer>
-    Это футер
-  </footer>
+    <footer>
+        Это футер
+    </footer>
 </template>
 
 <script>
-import { RouterLink, RouterView } from 'vue-router'
+    export default {
+        name: "footer",
+        components: {
 
-export default {
-  name: "Footer",
-  components: {
-  },
-  data() {
-  },
-}
+        },
+        data(){
+            
+        }
+    }
 </script>
 
 <style>
-footer {
-  border: 1px solid black
-}
+    footer{
+        border: 1px solid black;
+        padding: 40px 20px;
+    }
 </style>
